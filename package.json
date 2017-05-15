@@ -4,6 +4,7 @@
   "description": "Just testing",
   "main": "src/index.js",
   "scripts": {
+    "commit": "git-cz",
     "test": "echo No tests yet; exit 0",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
@@ -23,6 +24,13 @@
   },
   "homepage": "https://github.com/fernandogmar/pigfrog#readme",
   "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
     "semantic-release": "^6.3.6"
+  },
+  "config": {
+      "commitizen": {
+          "path": "node_modules/cz-conventional-changelog"
+      }
   }
 }
