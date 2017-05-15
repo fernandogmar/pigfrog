@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
-    "test": "echo No tests yet; exit 0",
+    "test": "mocha src/index.spec.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
@@ -24,13 +24,15 @@
   },
   "homepage": "https://github.com/fernandogmar/pigfrog#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
+    "mocha": "^3.4.1",
     "semantic-release": "^6.3.6"
   },
   "config": {
-      "commitizen": {
-          "path": "node_modules/cz-conventional-changelog"
-      }
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
   }
 }
