@@ -1,0 +1,28 @@
+{
+  "name": "pigfrog",
+  "version": "0.0.0-development",
+  "description": "Just testing",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo Not tests yet; exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fernandogmar/pigfrog.git"
+  },
+  "keywords": [
+    "pig",
+    "frog",
+    "test"
+  ],
+  "author": "@fernandogmar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fernandogmar/pigfrog/issues"
+  },
+  "homepage": "https://github.com/fernandogmar/pigfrog#readme",
+  "devDependencies": {
+    "semantic-release": "^6.3.6"
+  }
+}
