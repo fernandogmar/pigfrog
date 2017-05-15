@@ -1,7 +1,8 @@
 var expect = require('chai').expect;
+var pigfrog = require('./index.js');
 
 describe('pigfrog', function(){
-    it('should work!', function(){
-        expect(true).to.be.true;
+    it('should contain a function called hello', function(){
+        expect(pigfrog.hello).to.be.a('function');
     });
 });
