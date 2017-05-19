@@ -6,7 +6,11 @@ describe('pigfrog', function(){
         expect(pigfrog.hello).to.be.a('function');
     });
 
-    it('should contain a function calle bye', function() {
+    it('should contain a function called bye', function() {
         expect(pigfrog.bye).to.be.a('function');
+    });
+
+    it('should contain a function called greetings', function() {
+        expect(pigfrog.greetings).to.be.a('function');
     });
 });

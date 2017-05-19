@@ -1,6 +1,7 @@
 module.exports = {
-    hello: hello,
-    bye: bye
+    bye: bye,
+    greetings: greetings,
+    hello: hello
 };
 
 function hello() {
@@ -9,4 +10,8 @@ function hello() {
 
 function bye() {
     return 'bye pigfrog!';
+}
+
+function greetings() {
+    return 'greetings! my pigfrog!';
 }
